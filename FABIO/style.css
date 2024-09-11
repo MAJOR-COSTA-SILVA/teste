@@ -75,28 +75,58 @@ main .card-box .card{
 }
 
 main .card-box .card:first-child {
-
+    background-image: url(images1/limpeza1.jpeg);
 }
 
 main .card-box .card:nth-child(2) {
-
+    background-image: url(images1/limpeza2.jpeg);
 }
 
 main .card-box .card:nth-child(3) {
-
+    background-image: url(images1/limpeza3.jpeg);
 }
 
 main .card-box .card:nth-child(4) {
-
+    background-image: url(images1/seguranca1.jpeg);
 }
 
 main .card-box .card:nth-child(5) {
-
+    background-image: url(images1/seguranca2.jpeg);
 }
 
 main .card-box .card:nth-child(6) {
+    background-image: url(images1/seguranca3.jpeg);
+}
+
+.box-flutuante {
+    background-color: greenyellow;
+    height: 75px;
+    max-width: calc(270px * 3 + 30px);
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    background-color: coral;
+    align-items: center;
+    margin-top: 25px
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    list-style-type: none;
 
 }
 
-
-
+footer ul li {
+    margin: 0 9px;
+}
